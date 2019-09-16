@@ -1,0 +1,156 @@
+#page{
+	height: 90vh;
+	margin: -10px;
+	font-family: Sans-serif;
+}
+#title-sect{
+	background-image: url("rangerTri.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 100px 50px 50px 50px;
+	height: 100px;
+}
+#nav{
+	float: left;
+	font-size: 12px;
+	margin-top: -75px;
+	margin-left: -10px;
+}
+.bar{
+	background-color: #0E6655;
+	width: 99%;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px;
+}
+#body-sect{
+	background-color: white;
+	height: 75%;
+	width: 100%;
+	display: table;
+}
+.row{
+	display: table-row;
+	height: 100%;
+	width: 99%;
+	margin-top: -10px;
+}
+.body-left{
+	background-color: white;
+	border-right: 3px solid black;
+	display: table-cell;
+	
+	
+}
+.body-right{
+	background-color: white;
+	display: table-cell;
+	padding: 15px;
+	width:85%;
+		
+}
+#side-bar{
+	padding-top: 10px;
+}
+#main-cont{
+	margin: 2px;
+	padding: 2px;
+	height: 100%;
+	
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+#headshot{
+	background-image: url("headshot.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 10px;
+	height: 250px;
+	width: 200px;
+	float: left;
+}
+#name{
+	margin: 20px 0px 20px 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#quote{
+	margin: 15px;
+	padding: 15px;
+}
+#footer{
+	background-image: url("rangerTri.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 200px;
+}
+
+
+span{
+	color: red;
+	font-weight: bold;
+}
+
+aside{
+  flex-basis: 50%;
+}
+
+section{
+  flex-basis: 50%;
+}
+
+main{
+  display: flex;
+  margin: auto auto;
+  width: 70%;
+}
+
+
+table{
+	width: 100%;
+}
+th{
+	text-align: left;
+	font-size: 1.5em;
+	padding: 15px 0px 10px 0px;
+}
+td{
+	padding: 5px;
+	border-radius: 5px;
+}
+.setbg{
+	background-color: grey;
+}
+
+
+.link-nav a{
+	color: black;
+	text-decoration: none;
+}
+.link-nav a:hover{
+	color: #5F6A6A;
+}
+.link-body a{
+	color: #0E6655;
+	text-decoration: none;
+}
+.link-body a:hover{
+	color: #5F6A6A;
+	text-decoration: none;
+}
+.link-side a{
+	color: black;
+	text-decoration: none;
+}
+.link-side a:hover{
+	color: #0E6655;
+	text-decoration: none;
+}
